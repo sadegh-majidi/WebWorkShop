@@ -26,6 +26,15 @@
     background-color:#f4f5f7;
     padding: 5px;
 }
+
+.navbar a {
+    color: black;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    color: brown;
+}
     
 .centerContainer {
     display: flex;
@@ -163,3 +172,48 @@ ul {
     padding: 2px;
     margin : 2px;
 }
+
+h4 {
+    margin-top: 30px;
+    color: grey;
+}
+
+.recentAds {
+    margin-top: 20px;
+    display : flex;
+    justify-content: space-between;
+}
+
+.ad {
+    background-color: white;
+    /* padding: 8px; */
+    width : 24%;
+}
+
+.adImage {
+    width : 90%;
+    margin : 8px;
+    display: flex;
+    align-self: center;
+    height: 150px;
+    border-radius: 5px;
+}
+
+.adName {
+    margin-right : 10px;
+}
+
+.adDetails {
+    margin-top: 30px;
+    padding : 10px;
+}
+
+.Footer {
+    width: 100%;
+    text-align: center;
+    background-color: gray;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+}
+
