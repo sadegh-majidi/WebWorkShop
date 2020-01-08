@@ -76,6 +76,12 @@
     background-color:#198ad6;
     padding: 8px;
     border-radius: 25px 25px 25px 25px;
+    width: 150px;
+}
+
+#verifyAdButton:hover {
+    cursor: pointer;
+    opacity: 0.6;
 }
 
 .main {
@@ -94,6 +100,13 @@
     background-color: white;
     /* border-radius: 10%; */
     padding: 10px;
+}
+
+.searchBar input:focus {
+    border: 2px solid red;
+    border-radius: 5px;
+    color: blue;
+    background-color: gray;
 }
 
 .columnDir {
@@ -117,6 +130,11 @@
     background-color: #eaedf2;
     border: 1px solid #bbbcbf;
     border-radius: 5px;
+}
+
+#searchButton:hover {
+    background-color: rgba(0, 0, 150, 0.5);
+    cursor: pointer;
 }
 
 .shadowBehind {
